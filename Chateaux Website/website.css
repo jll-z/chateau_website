@@ -1,0 +1,254 @@
+.navbar-nav{
+  /*padding-left:60px;*/
+  padding-right: 60px;
+  margin-left: 0;
+}
+
+.navbar-custom{
+  background-color: White;
+}
+
+.nav-link{
+  color:#000000;
+}
+
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12pt;
+  padding-top: -4px;
+  padding-bottom: -4px;
+}
+
+.nav-item-first{
+  padding-left: -10px;
+  padding-right: 10px;
+  font-size: 12pt;
+  padding-top: -4px;
+  padding-bottom: -4px;
+}
+
+
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height:80%;
+  width: 100%;
+  background-color:rgba(255, 255, 255, .3);
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.text-block{
+  position: absolute;
+  top:50%;
+  left:50%;
+  color: black;
+  text-align:center;
+  transform: translate(-50%, -50%);
+}
+
+.line{
+  background-color: #000000;
+  height:.3px;
+  width: 90vw;
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.bkg-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.2;
+}
+
+.center-container{
+  display: block;
+  padding-left: auto;
+  padding-right: auto;
+  background-color: #ADD8E6;
+  width:100vw;
+  height:20vw;
+  margin-top: 50px;
+}
+
+.double_column{
+  display: inline;
+  width: 50%;
+  background-color: #ADD8E6;
+  border: 12px solid #000000;
+}
+
+.row{
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.h1{
+  font-family: 'Raleway';
+  text-align: center;
+}
+
+.p{
+  font-family: 'Raleway';
+  margin: 30px;
+}
+
+.center-para{
+  text-align: center;
+  padding-top: 0;
+}
+
+.center-h1{
+  text-align: center;
+  padding-top: 40px;
+}
+.nav-link{
+  font-family: 'Raleway', serif;
+}
+
+.float-container {
+  display: block;
+    border: 3px solid #fff;
+    height:30vw;
+    /*padding: 20px;*/
+}
+
+.float-child {
+    width: 50%;
+    /*padding: 20px;*/
+    border: 2px solid red;
+    height:30vw;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  width:100%;
+  padding: 30px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  margin-top: 10px;
+  width:100%;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner_1{
+  position: relative
+  float:left;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(177,212, 222, .7);
+}
+
+.inner_2{
+  position: relative;
+  float:right;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.carousel-inner>.active {
+  height: 30vw;
+}
+
+.center-pic{
+  opacity: 50%;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.side-pic{
+  width: 40%;
+  max-height: 100%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line_break{
+  display: block;
+  height: 30px;
+  width: 100%;
+}
+
+.form{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.form_item{
+  width:100%;
+  padding: 12px 20px;
+  bottom-border: 2px solid black;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.inner_1_contact{
+  float:left;
+  width: 50%;
+  height:40.5vw;
+}
+
+.inner_2{
+  float:right;
+  width: 50%;
+  height:40.5vw;
+}
+
+.form-label{
+  font-family: Raleway;
+  width: 100%;
+}
+
+.form-item{
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container-updated{
+  width:100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+footer{
+  font-family: Raleway;
+  text-align: center;
+  font-size: 8px;
+}
